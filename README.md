@@ -1,1 +1,1 @@
-## Q-Learning templateA simple template for implementing Q-Learning.
+## Q-Learning templateA simple template for implementing Q-Learning.Q(state, action) = Q(state, action) + learn_rate * (reward + discount_factor * Q(state',action') — Q(state, action))
