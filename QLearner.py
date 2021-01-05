@@ -36,7 +36,7 @@ while round(t,3) < Tf:
     # ------
     if random.uniform(0, 1) < explore_rate:
         # Explore (select randomly)        
-        action = 0        
+        action = random.randint(0,nAction-1)        
     else:
         # Exploit (select best)
         action = np.argmax(Q[state,:]) # not complete
