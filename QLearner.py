@@ -3,6 +3,8 @@
 """
 Created on Tue Jan  5 10:00:39 2021
 
+ A simple template for implementing Q-Learning.
+
 @author: tjards
 """
 import numpy as np
