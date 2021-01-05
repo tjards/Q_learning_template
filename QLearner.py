@@ -21,7 +21,6 @@ Ti = 0              # initial time
 Tf = 10             # final time
 Ts = 0.5            # sample time
 
-
 # Initialize Q table
 # ------------------
 Q = np.zeros((nState, nAction))
